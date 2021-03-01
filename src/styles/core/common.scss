@@ -13,6 +13,7 @@ html {
 }
 ul, ol, dl {
   margin: 0;
+  padding: 0;
 }
 li {
   list-style: none;
@@ -25,17 +26,5 @@ p {
 }
 body {
   font-family: $main-text;
-}
-#app {
-  width: 100vw;
-}
-.container {
-  margin: 0 auto;
-  padding: 0 30px;
-  max-width: 1501px;
-  width: 100%;
-}
-
-.div {
-  display: block;
+  background-color: $white-10;
 }

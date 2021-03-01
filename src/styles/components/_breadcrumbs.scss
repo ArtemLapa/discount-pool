@@ -1,0 +1,22 @@
+$style: "breadcrumbs";
+.#{$style} {
+  margin-bottom: 33px;
+  &__list {
+    @include flex(flex-start, center);
+  }
+  &__item {
+    padding-right: .3rem;
+    &:nth-child(n+2) {
+      &:before {
+        content: "/";
+        float: left;
+        padding-right: .3rem;
+      }
+    }
+  }
+  &__link {
+    @include text($H30, 400, $green-100);
+    line-height: 16px;
+    text-transform: capitalize;
+  }
+}

@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-$main-text: 'Mulish', sans-serif;
-$lemon: 'Lemon', cursive;
-$poppins: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+$main-text: 'Open Sans', sans-serif;
 $white-100: #ffffff;
-$white-10: #E0E5E9;
-$blue-100: #065BEA;
+$white-10: #F2F2F2;
 $blue-80: #0A4AB6;
 $blue-70: #0451D2;
 $blue-10: #C6D0E0;
+$green-30: #159EBC;
+$green-100: #04394D;
 $grey-100: #333333;
 $grey-30: #75777A;
+$grey-20: #778091;
+$grey-10: #BEC6D7;
 $black-100: #000000;
 
 @function px_to_rem($target, $context: $base-size) {

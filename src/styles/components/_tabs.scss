@@ -1,0 +1,39 @@
+$style: "tabs";
+.#{$style} {
+  &__list {
+    @include flex(center, center, row, wrap);
+  }
+  &__items {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 17px;
+    &:first-child {
+      padding-left: 0px;
+    }
+    &:nth-child(n+2) {
+      &:before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 16px;
+        background-color: $grey-10;
+        margin-left: 14px;
+        margin-right: 16px;
+      }
+    }
+    &:last-child {
+      padding-right: 0px;
+    }
+  }
+  &__link {
+    @include text($H20, 600, $green-100);
+    line-height: 16px;
+    text-transform: uppercase;
+    &--active {
+      padding: 3px 6.5px 3px 5.5px;
+      background-color: $green-30;
+      color: $white-100;
+    }
+  }
+}
