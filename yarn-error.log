@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add parcel-plugin-clean-easy --dev
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\thirt\bin;C:\Users\thirt\AppData\Local\Programs\Python\Python38-32;C:\Users\thirt\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Go\bin;C:\Program Files\PowerShell\7;C:\Users\thirt\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\thirt\AppData\Local\Programs\Python\Python38-32;C:\Users\thirt\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\thirt\AppData\Local\Programs\Python\Python37-32;C:\Users\thirt\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2019.2\bin;C:\Users\thirt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2019.2.4\bin;C:\Program Files\JetBrains\PyCharm 2019.3\bin;C:\Users\thirt\go\bin;C:\Users\thirt\AppData\Roaming\npm;C:\tools\Cmder;C:\Users\thirt\AppData\Roaming\Composer\vendor\bin;C:\OpenServe\OSPanel\modules\php\PHP_7.3;C:\Users\thirt\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\bin;F:\Program\WebStorm 2020.3\bin;C:\Users\thirt\go\bin;F:\Program\PhpStorm 2020.3.1\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.23.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+
+npm manifest: 
+  {
+    "name": "discount-pool",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "parcel index.html --open",
+      "serve": "parcel index.html --open",
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html --no-source-maps --no-cache"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
