@@ -1,0 +1,72 @@
+$style: "baner";
+.#{$style} {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  &__wrapper {
+    position: relative;
+  }
+  &__canadian-wrapper {
+    position: absolute;
+    display: none;
+    @include media-b($b-lg) {
+      right: -7%;
+      top: -73%;
+      display: block;
+    }
+    @include media-b($b-xl) {
+      right: -6%;
+      top: -61%;
+    }
+    @include media-b($b-xxl) {
+      right: -5%;
+      top: -54%;
+    }
+  }
+  &__canadian-descrp {
+    position: absolute;
+    left: 29%;
+    top: 47%;
+    z-index: 2;
+    transform: rotateZ(15deg);
+    font-size: 12px;
+    line-height: 13px;
+    color: #EEF2F5;
+    text-align: center;
+    max-width: 60px;
+  }
+  &__canadian-icon {
+    position: relative;
+    z-index: 1;
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+  &__heading {
+    @include text($H80, 600, $white-100);
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 22px;
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include media-b($b-xs) {
+      font-size: $H80;
+      line-height: 22px;
+    }
+    @include media-b($b-sm) {
+      font-size: $H200;
+      line-height: 25px;
+    }
+    @include media-b($b-md) {
+      font-size: $H220;
+      line-height: 31px;
+    }
+    @include media-b($b-xxl) {
+      font-size: $H350;
+      line-height: 34px;
+    }
+  }
+}

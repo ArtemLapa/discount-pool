@@ -10,7 +10,9 @@ $green-100: #04394D;
 $grey-100: #333333;
 $grey-30: #75777A;
 $grey-20: #778091;
+$grey-15: #C7CEDE;
 $grey-10: #BEC6D7;
+$grey-5: #ECF0F3;
 $black-100: #000000;
 
 @function px_to_rem($target, $context: $base-size) {

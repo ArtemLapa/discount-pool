@@ -152,3 +152,17 @@ $screen-retina: 1660px;
     @content;
   }
 }
+
+/* Bootstrap breakpoints */
+$b-xs: 0;
+$b-sm: 576px;
+$b-md: 768px;
+$b-lg: 992px;
+$b-xl: 1200px;
+$b-xxl: 1400px;
+
+@mixin media-b($b: $b-xxl) {
+  @media screen and (min-width: $b) {
+    @content;
+  }
+}

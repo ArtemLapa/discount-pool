@@ -28,10 +28,15 @@ $style: "tabs";
   }
   &__link {
     @include text($H20, 600, $green-100);
+    padding: 3px 6.5px 3px 5.5px;
     line-height: 16px;
     text-transform: uppercase;
+    transition: all .2s ease;
+    &:hover {
+      background-color: $green-30;
+      color: $white-100;
+    }
     &--active {
-      padding: 3px 6.5px 3px 5.5px;
       background-color: $green-30;
       color: $white-100;
     }
